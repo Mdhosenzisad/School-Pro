@@ -12,6 +12,39 @@ a {
     text-shadow: 1px 1px 2px #4444;
 }
 
+/* ---------------------multuilavel  */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    min-width: 15em;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+    margin-left: 1px;
+ 
+}
+
+li:hover {
+    background-color: #62b1ed;
+    /* width: 250px; */
+    text-align: center;
+}
+
+
+
+.parent li:hover {
+    background-color: #F0F0F0;
+}
+
+.expand {
+    font-size: 12px;
+    float: right;
+    margin-right: 5px;
+}
 
 /*****************************
     NavBar
@@ -25,6 +58,7 @@ header nav {
 
 header nav a.navbar-brand h2 {
     color: var(--bs-orange);
+    font-size: 1.7rem;
 }
 
 header nav ul.action-menu .nav-item .nav-link {
@@ -33,22 +67,62 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .navbar-toggler {
-    outline: none!important;
-    outline-color: transparent!important;
-    padding: none!important;
-    border: none!important;
-    border-radius: none!important;
+    outline: none !important;
+    outline-color: transparent !important;
+    padding: none !important;
+    border: none !important;
+    border-radius: none !important;
 }
 
-@media(max-width: 567px) {}
+@media(max-width: 567px) {
+    .logo span {
+        color: #f5a425;
+    }
+}
 
 .logo span {
     color: #f5a425;
 }
 
+
 .naic {
     background-color: #d8d1c2;
     color: #1a1e21;
+}
+
+.navt{
+    align-items: flex-end;
+}
+
+
+.dropdown-menu li{
+
+    position: relative;
+}
+.dropdown-menu .submenu{
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: -7px;
+
+}
+
+.dropdown-menu>li:hover>.submenu{
+    display: block;
+   
+}
+
+.submenu li{
+    border-bottom: 1px solid black;
+}
+
+
+@media(max-width: 567px) {
+
+.submenu {
+    background-color:  #f5a425;
+     border-right: #CCC 1px solid;
+}
 }
 
 
@@ -67,12 +141,12 @@ header nav ul.action-menu .nav-item .nav-link {
 ******************************/
 
 .form-login {
-    bottom: 45%!important;
+    bottom: 45% !important;
 }
 
 .carousel-item {
     width: 100%;
-    height: 100vh!important;
+    height: 100vh !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,6 +200,7 @@ header nav ul.action-menu .nav-item .nav-link {
     .carousel-caption h5 {
         font-size: 25px;
     }
+
     .carousel-caption p {
         font-size: 13px;
     }
@@ -135,6 +210,14 @@ header nav ul.action-menu .nav-item .nav-link {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.card {
+    padding: 10px !important;
+    background-color: #eee;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
 
 .about .content {
     padding: 0 80px;
@@ -265,6 +348,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 @media (max-width: 1024px) {
+
     .about .content,
     .about .accordion-list {
         padding-left: 0;
@@ -276,6 +360,7 @@ header nav ul.action-menu .nav-item .nav-link {
     .about .content {
         padding-top: 30px;
     }
+
     .about .accordion-list {
         padding-bottom: 30px;
     }
@@ -286,6 +371,7 @@ header nav ul.action-menu .nav-item .nav-link {
         transform: scale(0.6, 0.6);
         opacity: 1;
     }
+
     100% {
         transform: scale(1, 1);
         opacity: 0;
@@ -297,6 +383,7 @@ header nav ul.action-menu .nav-item .nav-link {
         transform: scale(0.6, 0.6);
         opacity: 1;
     }
+
     100% {
         transform: scale(1, 1);
         opacity: 0;
@@ -523,6 +610,7 @@ header nav ul.action-menu .nav-item .nav-link {
 /* FontAwesome for working BootSnippet :> */
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 #team {
     background: rgb(246, 247, 244) !important;
 }
@@ -780,4 +868,316 @@ section .section-title {
 .border-rad:hover {
     background-color: #f9a826;
     border-color: #f9a826;
+}
+
+/* --------------news--- */
+.zoom {
+
+
+    transition: transform .2s;
+    /* Animation */
+
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    /* transform: scale(1.5); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color: green;
+    transform: translate(20px);
+}
+
+.media {
+    display: flex;
+}
+
+.newss:hover {
+    background-color: #b98484;
+    width: 200px;
+    text-align: center;
+}
+
+.neww {
+    background-color: #fff;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid rgb(136, 173, 136);
+}
+
+.neww:hover {
+    background-color: #3d91db;
+}
+
+
+/* -------------------center information */
+.example2 {
+    width: 100%;
+    height: auto;
+}
+
+.centerinfop {
+    box-sizing: inherit;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 2px;
+    color: rgb(51, 51, 51);
+    font-family: HamburgSans, sans-serif;
+    font-size: 15.6px;
+    line-height: 25px;
+}
+
+
+.sho{
+    color: #007b5e;
+}
+
+.sho:hover{
+color: #ff1a1a;
+}
+
+
+/* -------------------- */
+
+
+/* ---------------teacher ------------- */
+
+
+.row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+/* .our-webcoderskull{
+  background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
+  
+} */
+
+
+.our-webcoderskull li:hover{
+   background-color: rgb(230, 247, 179);
+}
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h4{ 
+    color:#2a2a2a; 
+    font-size:15px; 
+    font-weight:500; 
+    padding:6px 0;
+    text-transform:uppercase;
+ }
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#33b740;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:15px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fab{ 
+   font-size:24px; 
+   color:#309ddc;
+}
+.our-webcoderskull .cnt-block .follow-us li .fab:hover{ 
+   color:#028e19;
+}
+/* -----------dairy---------- */
+.schoolNoticeDetails {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    padding: 0 30px;
+    margin: 15px 0;
+    border-radius: 10px;
+    height: 80px;
+}
+.page-content {
+    background-color: #1e74c521;
+    padding: 30px 0;
+    margin: 0 0 -10px 0;
+    font-size: .8rem;
+}
+
+.page-content h3{
+    font-size: .8rem;
+}
+
+.page-sidebar {
+    font-size: 1.5em;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 567px){
+    .page-content {
+        font-size: .5rem;
+    }
+    
+}
+/* ------contact------ */
+#conform {
+    background: #e2edf7;
+}
+
+.contactlist {
+    box-shadow: 3px 0 15px 0 #9e9e9e66;
+    padding: 60px 80px;
+    background: #fff;
+}
+
+.contactlist form textarea {
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+    background: #ECECEC;
+    border: none;
+}
+.contactlist form input:hover {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    background: #d7ecbe;
+    border: none;
+
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+.contactlist button {
+    background: #8387da;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.contactlist button:hover{
+    background-color: yellowgreen;
+}
+
+
+/* --------------map----------- */
+.iframe {
+    padding: 50px 0;
+    background: #e2edf7;
+}
+.contact-map {
+    margin: -15px 0 0 0;
+}
+@media(max-width: 567px){
+    .mapp {
+        width: 100%;
+ 
+    }
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
+.fade {
+    opacity: 0;
+    transition: opacity .15s linear;
 }
