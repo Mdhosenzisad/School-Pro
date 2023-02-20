@@ -25,7 +25,7 @@ ul ul ul {
     left: 100%;
     top: 0;
     margin-left: 1px;
- 
+
 }
 
 li:hover {
@@ -90,16 +90,17 @@ header nav ul.action-menu .nav-item .nav-link {
     color: #1a1e21;
 }
 
-.navt{
+.navt {
     align-items: flex-end;
 }
 
 
-.dropdown-menu li{
+.dropdown-menu li {
 
     position: relative;
 }
-.dropdown-menu .submenu{
+
+.dropdown-menu .submenu {
     display: none;
     position: absolute;
     left: 40%;
@@ -107,22 +108,22 @@ header nav ul.action-menu .nav-item .nav-link {
 
 }
 
-.dropdown-menu>li:hover>.submenu{
+.dropdown-menu>li:hover>.submenu {
     display: block;
-   
+
 }
 
-.submenu li{
+.submenu li {
     border-bottom: 1px solid black;
 }
 
 
 @media(max-width: 567px) {
 
-.submenu {
-    background-color:  #f5a425;
-     border-right: #CCC 1px solid;
-}
+    .submenu {
+        background-color: #f5a425;
+        border-right: #CCC 1px solid;
+    }
 }
 
 
@@ -927,12 +928,12 @@ section .section-title {
 }
 
 
-.sho{
+.sho {
     color: #007b5e;
 }
 
-.sho:hover{
-color: #ff1a1a;
+.sho:hover {
+    color: #ff1a1a;
 }
 
 
@@ -952,122 +953,144 @@ color: #ff1a1a;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
-ul{
-  margin:0;
-  padding:0;
-  list-style:none;
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 .heading.heading-icon {
     display: block;
 }
+
 .padding-lg {
-	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 .practice-area.padding-lg {
     padding-bottom: 55px;
     padding-top: 55px;
 }
-.practice-area .inner{ 
-     border:1px solid #999999; 
-	 text-align:center; 
-	 margin-bottom:28px; 
-	 padding:40px 25px;
+
+.practice-area .inner {
+    border: 1px solid #999999;
+    text-align: center;
+    margin-bottom: 28px;
+    padding: 40px 25px;
 }
+
 .our-webcoderskull .cnt-block:hover {
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border: 0;
 }
-.practice-area .inner h3{ 
-    color:#3c3c3c; 
-	font-size:24px; 
-	font-weight:500;
-	font-family: 'Poppins', sans-serif;
-	padding: 10px 0;
+
+.practice-area .inner h3 {
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0;
 }
-.practice-area .inner p{ 
-    font-size:14px; 
-	line-height:22px; 
-	font-weight:400;
+
+.practice-area .inner p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
 }
-.practice-area .inner img{
-	display:inline-block;
+
+.practice-area .inner img {
+    display: inline-block;
 }
 
 
 /* .our-webcoderskull{
   background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
   
-} */
+} 
 
 
-.our-webcoderskull li:hover{
-   background-color: rgb(230, 247, 179);
+.our-webcoderskull li:hover {
+    background-color: rgb(230, 247, 179);
 }
-.our-webcoderskull .cnt-block{ 
-   float:left; 
-   width:100%; 
-   background:#fff; 
-   padding:30px 20px; 
-   text-align:center; 
-   border:2px solid #d5d5d5;
-   margin: 0 0 28px;
+
+.our-webcoderskull .cnt-block {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px solid #d5d5d5;
+    margin: 0 0 28px;
 }
-.our-webcoderskull .cnt-block figure{
-   width:148px; 
-   height:148px; 
-   border-radius:100%; 
-   display:inline-block;
-   margin-bottom: 15px;
+
+.our-webcoderskull .cnt-block figure {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
 }
-.our-webcoderskull .cnt-block img{ 
-   width:148px; 
-   height:148px; 
-   border-radius:100%; 
+
+.our-webcoderskull .cnt-block img {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
 }
-.our-webcoderskull .cnt-block h3{ 
-   color:#2a2a2a; 
-   font-size:20px; 
-   font-weight:500; 
-   padding:6px 0;
-   text-transform:uppercase;
+
+.our-webcoderskull .cnt-block h3 {
+    color: #2a2a2a;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-transform: uppercase;
 }
-.our-webcoderskull .cnt-block h4{ 
-    color:#2a2a2a; 
-    font-size:15px; 
-    font-weight:500; 
-    padding:6px 0;
-    text-transform:uppercase;
- }
-.our-webcoderskull .cnt-block h3 a{
-  text-decoration:none;
-	color:#2a2a2a;
+
+.our-webcoderskull .cnt-block h4 {
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-transform: uppercase;
 }
-.our-webcoderskull .cnt-block h3 a:hover{
-	color:#33b740;
+
+.our-webcoderskull .cnt-block h3 a {
+    text-decoration: none;
+    color: #2a2a2a;
 }
-.our-webcoderskull .cnt-block p{ 
-   color:#2a2a2a; 
-   font-size:13px; 
-   line-height:20px; 
-   font-weight:400;
+
+.our-webcoderskull .cnt-block h3 a:hover {
+    color: #33b740;
 }
-.our-webcoderskull .cnt-block .follow-us{
-	margin:15px 0 0;
+
+.our-webcoderskull .cnt-block p {
+    color: #2a2a2a;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
 }
-.our-webcoderskull .cnt-block .follow-us li{ 
-    display:inline-block; 
-	width:auto; 
-	margin:0 5px;
+
+.our-webcoderskull .cnt-block .follow-us {
+    margin: 15px 0 0;
 }
-.our-webcoderskull .cnt-block .follow-us li .fab{ 
-   font-size:24px; 
-   color:#309ddc;
+
+.our-webcoderskull .cnt-block .follow-us li {
+    display: inline-block;
+    width: auto;
+    margin: 0 5px;
 }
-.our-webcoderskull .cnt-block .follow-us li .fab:hover{ 
-   color:#028e19;
+
+.our-webcoderskull .cnt-block .follow-us li .fab {
+    font-size: 24px;
+    color: #309ddc;
 }
+
+.our-webcoderskull .cnt-block .follow-us li .fab:hover {
+    color: #028e19;
+}
+
 /* -----------dairy---------- */
 .schoolNoticeDetails {
     display: flex;
@@ -1079,6 +1102,7 @@ ul{
     border-radius: 10px;
     height: 80px;
 }
+
 .page-content {
     background-color: #1e74c521;
     padding: 30px 0;
@@ -1086,7 +1110,7 @@ ul{
     font-size: .8rem;
 }
 
-.page-content h3{
+.page-content h3 {
     font-size: .8rem;
 }
 
@@ -1099,12 +1123,13 @@ ul{
     margin-bottom: 10px;
 }
 
-@media(max-width: 567px){
+@media(max-width: 567px) {
     .page-content {
         font-size: .5rem;
     }
-    
+
 }
+
 /* ------contact------ */
 #conform {
     background: #e2edf7;
@@ -1123,6 +1148,7 @@ ul{
     background: #ECECEC;
     border: none;
 }
+
 .contactlist form input:hover {
     width: 100%;
     height: 50px;
@@ -1136,6 +1162,7 @@ textarea {
     overflow: auto;
     resize: vertical;
 }
+
 .contactlist button {
     background: #8387da;
     padding: 15px 70px;
@@ -1144,7 +1171,7 @@ textarea {
     margin-top: 40px;
 }
 
-.contactlist button:hover{
+.contactlist button:hover {
     background-color: yellowgreen;
 }
 
@@ -1154,13 +1181,15 @@ textarea {
     padding: 50px 0;
     background: #e2edf7;
 }
+
 .contact-map {
     margin: -15px 0 0 0;
 }
-@media(max-width: 567px){
+
+@media(max-width: 567px) {
     .mapp {
         width: 100%;
- 
+
     }
 }
 
@@ -1177,7 +1206,86 @@ textarea {
     overflow: hidden;
     outline: 0;
 }
+
 .fade {
-    opacity: 0;
+    opacity: 1;
     transition: opacity .15s linear;
 }
+
+/* ----------------- */
+
+
+
+/******courses******/
+
+.lesson {
+    /* background: url("img/zisad.png") center center / cover;
+    padding-bottom: 20px; */
+}
+
+.item {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info-course {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+}
+
+.info-course h4 {
+    font-size: 1.1em;
+    margin: 10px 0 15px 0;
+}
+
+.info-course p {
+    font-size: .8em;
+    margin-bottom: 20px;
+}
+
+.owl-carousel .owl-item .info-fo img {
+    width: auto;
+    border: #f5a425 2px solid;
+    border-radius: 50%;
+}
+
+.info-fo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-fo a {
+    text-decoration: none;
+    color: gray;
+    margin: auto 0;
+}
+
+.info-fo a.pay {
+    color: #f5a425;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: white;
+    border-radius: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #f5a425 !important;
+}
+
+.teacherhead{
+    color:#f5a425;
+}
+/*******end courses**************/
+
+
